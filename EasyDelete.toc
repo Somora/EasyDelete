@@ -1,0 +1,8 @@
+## Interface: 70300
+## X-Min-Interface: 70300
+## Title: Somora's Easy Delete
+## Notes: This AddOn makes it easy to delete items you are destroying.
+## Author: Somora
+## Version: 1.0
+## DefaultState: enabled
+EasyDelete.lua
