@@ -1,2 +1,5 @@
+v1.01
+- Updates TOC for BfA
+
 v1.00
 - Initial Development
