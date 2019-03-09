@@ -1,3 +1,6 @@
+v1.02
+- Updates TOC for BfA 8.1
+
 v1.01
 - Updates TOC for BfA
 
