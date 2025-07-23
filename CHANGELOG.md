@@ -28,3 +28,9 @@ All notable changes to this project will be documented in this file.
 
 ## Version 1.08 (2025-06-18):
 - Updated addon for The War Within build version 110107. (Legacy of Arathor)
+
+## Version 1.09 (2025-06-29):
+- Added support for Classic and Cataclysm Classic.
+
+## Version 1.10 (2025-07-23):
+- Added support for Mists of Pandaria Classic.
