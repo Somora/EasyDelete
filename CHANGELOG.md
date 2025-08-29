@@ -34,3 +34,6 @@ All notable changes to this project will be documented in this file.
 
 ## Version 1.10 (2025-07-23):
 - Added support for Mists of Pandaria Classic.
+
+## Version 1.11 (2025-08-29):
+- Updated addon for The War Within build version 110205. (Ghosts of K'aresh)
