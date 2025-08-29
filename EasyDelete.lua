@@ -5,5 +5,5 @@ hooksecurefunc(StaticPopupDialogs["DELETE_GOOD_ITEM"], "OnShow", function(s)
     -- DELETE_ITEM_CONFIRM_STRING is a predefined global variable in WoW that
     -- holds the exact string the game expects the user to enter to confirm
     -- the deletion of a "good" item (an item of green quality or higher).
-    s.editBox:SetText(DELETE_ITEM_CONFIRM_STRING)
+    StaticPopup1EditBox:SetText(DELETE_ITEM_CONFIRM_STRING)
 end)
