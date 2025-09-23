@@ -1,4 +1,4 @@
-## Interface: 110200
+## Interface: 11507
 ## Title: Somora's EasyDelete
 ## Notes: This AddOn makes it easy to destroy items that require you to type "Delete".
 ## Author: Somora
