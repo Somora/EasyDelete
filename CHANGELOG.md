@@ -44,3 +44,6 @@ All notable changes to this project will be documented in this file.
 
 ## Version 1.13 (2025-12-07):
 - Updated addon for The War Within build version 110207. (The Warning)
+
+## Version 1.14 (2026-01-15):
+- Updated addon for The Burning Crusade Anniversary version 20505.

@@ -2,7 +2,7 @@
 ## Title: Somora's EasyDelete
 ## Notes: This AddOn makes it easy to destroy items that require you to type "Delete".
 ## Author: Somora
-## Version: 1.12
+## Version: 1.14
 ## DefaultState: enabled
 
 EasyDelete.lua
