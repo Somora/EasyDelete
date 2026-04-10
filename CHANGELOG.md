@@ -50,3 +50,8 @@ All notable changes to this project will be documented in this file.
 
 ## Version 1.15 (2026-02-22):
 - Updated addon for Midnight build version 120001.
+
+## Version 1.16 (2026-04-10):
+- Improved delete confirmation autofill compatibility by using the active popup edit box with a fallback for older UI behavior.
+- Synced addon version numbers across Retail, Classic Era, MoP Classic, and TBC Classic TOC files.
+- Removed the incorrect minimap button note from the README.

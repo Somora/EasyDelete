@@ -1,9 +1,27 @@
--- Hook the OnShow function for the DELETE_GOOD_ITEM static popup dialog.
--- This function is called whenever the dialog is shown.
-hooksecurefunc(StaticPopupDialogs["DELETE_GOOD_ITEM"], "OnShow", function(s)
-    -- Automatically fill the edit box with the required confirmation text.
-    -- DELETE_ITEM_CONFIRM_STRING is a predefined global variable in WoW that
-    -- holds the exact string the game expects the user to enter to confirm
-    -- the deletion of a "good" item (an item of green quality or higher).
-    StaticPopup1EditBox:SetText(DELETE_ITEM_CONFIRM_STRING)
-end)
+local deleteDialog = StaticPopupDialogs and StaticPopupDialogs.DELETE_GOOD_ITEM
+
+if deleteDialog then
+    hooksecurefunc(deleteDialog, "OnShow", function(dialog)
+        local confirmText = DELETE_ITEM_CONFIRM_STRING
+        local editBox
+
+        if dialog then
+            editBox = dialog.editBox
+
+            if not editBox and dialog.GetName then
+                editBox = _G[dialog:GetName() .. "EditBox"]
+            end
+        end
+
+        if not editBox then
+            editBox = StaticPopup1EditBox
+        end
+
+        if not editBox or type(confirmText) ~= "string" or confirmText == "" then
+            return
+        end
+
+        editBox:SetText(confirmText)
+        editBox:HighlightText(0, 0)
+    end)
+end
