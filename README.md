@@ -14,9 +14,9 @@ Install **EasyDelete** through the CurseForge app for your WoW client. The app w
 * **Download the Addon:** Download the ZIP file from CurseForge or this repository's release page.
 * **Extract the ZIP File:** Unzip it into the `Interface/AddOns` folder for your WoW client:
   * `_retail_/Interface/AddOns`
-  * `_classic_era_/Interface/AddOns`
-  * `_classic_/Interface/AddOns`
-  * `_classic_mop_/Interface/AddOns`
+  * `_classic_era_/Interface/AddOns` for Classic Era
+  * `_classic_/Interface/AddOns` for Mists of Pandaria Classic
+  * `_anniversary_/Interface/AddOns` for Classic TBC
 * **Check the Folder Name:** Make sure the final addon folder is named `EasyDelete`.
 * **Verify Installation:** Restart World of Warcraft or reload your UI with `/reload`.
 
