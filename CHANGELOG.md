@@ -55,3 +55,6 @@ All notable changes to this project will be documented in this file.
 - Improved delete confirmation autofill compatibility by using the active popup edit box with a fallback for older UI behavior.
 - Synced addon version numbers across Retail, Classic Era, MoP Classic, and TBC Classic TOC files.
 - Removed the incorrect minimap button note from the README.
+
+## Version 1.17 (2026-04-22):
+- Updated Retail TOC interface version for World of Warcraft 12.0.5 build 120005.
