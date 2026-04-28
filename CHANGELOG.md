@@ -58,3 +58,7 @@ All notable changes to this project will be documented in this file.
 
 ## Version 1.17 (2026-04-22):
 - Updated Retail TOC interface version for World of Warcraft 12.0.5 build 120005.
+
+## Version 1.18 (2026-04-28):
+- Renamed client-specific TOC files to the recommended suffixes for Classic Era (`_Vanilla`) and Mists of Pandaria Classic (`_Mists`).
+- Bumped addon version metadata across all supported TOC files.

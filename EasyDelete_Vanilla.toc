@@ -1,8 +1,8 @@
-## Interface: 50500
+## Interface: 11507
 ## Title: Somora's EasyDelete
 ## Notes: This AddOn makes it easy to destroy items that require you to type "Delete".
 ## Author: Somora
-## Version: 1.17
+## Version: 1.18
 ## DefaultState: enabled
 
 EasyDelete.lua
