@@ -62,3 +62,6 @@ All notable changes to this project will be documented in this file.
 ## Version 1.18 (2026-04-28):
 - Renamed client-specific TOC files to the recommended suffixes for Classic Era (`_Vanilla`) and Mists of Pandaria Classic (`_Mists`).
 - Bumped addon version metadata across all supported TOC files.
+
+## Version 1.19 (2026-06-15):
+- Fixed delete confirmation autofill for items that require item-specific confirmation text, such as `Head of Onyxia`.
