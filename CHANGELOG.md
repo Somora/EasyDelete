@@ -65,3 +65,6 @@ All notable changes to this project will be documented in this file.
 
 ## Version 1.19 (2026-06-15):
 - Fixed delete confirmation autofill for items that require item-specific confirmation text, such as `Head of Onyxia`.
+
+## Version 1.20 (2026-06-17):
+- Updated Retail TOC interface version for World of Warcraft build 120007.
