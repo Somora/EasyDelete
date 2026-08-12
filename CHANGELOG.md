@@ -68,3 +68,6 @@ All notable changes to this project will be documented in this file.
 
 ## Version 1.20 (2026-06-17):
 - Updated Retail TOC interface version for World of Warcraft build 120007.
+
+## Version 1.21 (2026-08-12):
+- Updated Retail TOC interface version for World of Warcraft build 120100.
