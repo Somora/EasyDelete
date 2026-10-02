@@ -7,6 +7,8 @@
 * **Lightweight:** Minimal impact on game performance.
 
 ## Installation
+Supported clients: Retail, WoW Forever (interface 16001), Classic Era, Mists of Pandaria Classic, and Classic TBC.
+
 ### CurseForge App
 Install **EasyDelete** through the CurseForge app for your WoW client. The app will place the addon in the correct `Interface/AddOns` folder automatically.
 
@@ -18,10 +20,13 @@ Install **EasyDelete** through the CurseForge app for your WoW client. The app w
   * `_classic_/Interface/AddOns` for Mists of Pandaria Classic
   * `_anniversary_/Interface/AddOns` for Classic TBC
 * **Check the Folder Name:** Make sure the final addon folder is named `EasyDelete`.
+* **WoW Forever:** Extract into the `Interface/AddOns` folder of your Forever installation. The shared `EasyDelete.toc` supports both Retail and Forever; no file renaming is needed.
 * **Verify Installation:** Restart World of Warcraft or reload your UI with `/reload`.
 
 ## Usage
 Once installed, the addon works automatically. When you try to delete an item that requires confirmation, the confirmation box will auto-populate with the necessary confirmation text. Just click "Okay", and the item will be deleted.
+
+For a quick compatibility check in Forever, use `/reload`, open a delete confirmation for an expendable item, and verify that the required text is filled and the confirmation button becomes enabled. Cancel the dialog after checking. Also check an item that requires its name as confirmation, if available. Initial in-game testing on Forever build 1.60.1.70170 was reported to work.
 
 ## Support
 If you encounter any issues or have suggestions for improvements, please feel free to reach out or submit an issue on the addon's repository page.

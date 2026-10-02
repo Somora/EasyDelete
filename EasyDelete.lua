@@ -6,10 +6,18 @@ if deleteDialog then
         local confirmText
 
         if dialog then
-            editBox = dialog.editBox
+            -- Forever and modern Retail expose the edit box through a getter.
+            if dialog.GetEditBox then
+                editBox = dialog:GetEditBox()
+            end
+
+            editBox = editBox or dialog.EditBox or dialog.editBox
 
             if not editBox and dialog.GetName then
-                editBox = _G[dialog:GetName() .. "EditBox"]
+                local name = dialog:GetName()
+                if name then
+                    editBox = _G[name .. "EditBox"]
+                end
             end
         end
 

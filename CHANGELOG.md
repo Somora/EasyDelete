@@ -1,6 +1,11 @@
 # EasyDelete Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 1.22 (2026-10-02):
+- Added WoW Forever interface 16001 to the shared Retail/Forever TOC.
+- Updated delete confirmation autofill to use the modern popup edit box getter, retaining older client fallbacks.
+- Synced addon versions across all supported clients and documented Forever installation and in-game verification.
+
 ## Version 1.0 (2024-02-10):
 - Initial release of EasyDelete.
 - Auto-fills the delete confirmation for good items to streamline the item deletion process.
