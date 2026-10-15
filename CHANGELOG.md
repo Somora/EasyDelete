@@ -1,6 +1,10 @@
 # EasyDelete Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 1.23 (2026-10-15):
+- Updated Retail TOC interface version for World of Warcraft 12.1.5 (120105), retaining WoW Forever support (16001).
+- Synced addon version metadata across all supported clients.
+
 ## Version 1.22 (2026-10-02):
 - Added WoW Forever interface 16001 to the shared Retail/Forever TOC.
 - Updated delete confirmation autofill to use the modern popup edit box getter, retaining older client fallbacks.
