@@ -1,6 +1,10 @@
 # EasyDelete Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 1.24 (2026-10-16):
+- Added the User Interface category to all TOC files for grouping in the in-game addon list on supported clients. Thanks to GnuclearGnome for the suggestion.
+- Synced addon version metadata across all supported clients.
+
 ## Version 1.23 (2026-10-15):
 - Updated Retail TOC interface version for World of Warcraft 12.1.5 (120105), retaining WoW Forever support (16001).
 - Synced addon version metadata across all supported clients.
