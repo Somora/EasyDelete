@@ -1,6 +1,11 @@
 # EasyDelete Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 1.25 (2026-10-23):
+- Removed the fallback to the first popup's edit box to avoid filling an unrelated dialog.
+- Skip autofill for forbidden frames, secure-input dialogs, and secret confirmation data where the client exposes these checks.
+- Synced addon version metadata across all supported clients.
+
 ## Version 1.24 (2026-10-16):
 - Added the User Interface category to all TOC files for grouping in the in-game addon list on supported clients. Thanks to GnuclearGnome for the suggestion.
 - Synced addon version metadata across all supported clients.

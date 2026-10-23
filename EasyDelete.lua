@@ -2,6 +2,15 @@ local deleteDialog = StaticPopupDialogs and StaticPopupDialogs.DELETE_GOOD_ITEM
 
 if deleteDialog then
     hooksecurefunc(deleteDialog, "OnShow", function(dialog, data)
+        if not dialog or (dialog.IsForbidden and dialog:IsForbidden()) then
+            return
+        end
+
+        -- Leave secure-input dialogs to Blizzard if their requirements change.
+        if deleteDialog.editBoxSecureText then
+            return
+        end
+
         local editBox
         local confirmText
 
@@ -21,8 +30,14 @@ if deleteDialog then
             end
         end
 
-        if not editBox then
-            editBox = StaticPopup1EditBox
+        -- Never fall back to another popup's edit box.
+        if not editBox or (editBox.IsForbidden and editBox:IsForbidden()) then
+            return
+        end
+
+        -- Do not compare or copy secret confirmation data into addon-owned text.
+        if issecretvalue and (issecretvalue(data) or issecretvalue(dialog.data)) then
+            return
         end
 
         -- Some delete popups require item-specific text instead of the generic
