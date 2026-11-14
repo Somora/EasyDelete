@@ -2,6 +2,10 @@ local deleteDialog = StaticPopupDialogs and StaticPopupDialogs.DELETE_GOOD_ITEM
 
 if deleteDialog then
     hooksecurefunc(deleteDialog, "OnShow", function(dialog, data)
+        if IsShiftKeyDown and IsShiftKeyDown() then
+            return
+        end
+
         if not dialog or (dialog.IsForbidden and dialog:IsForbidden()) then
             return
         end

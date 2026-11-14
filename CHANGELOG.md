@@ -1,6 +1,9 @@
 # EasyDelete Changelog
 All notable changes to this project will be documented in this file.
 
+## Version 1.26 (2026-11-14):
+- Hold Shift as the delete confirmation opens to skip autofill and type the Blizzard confirmation manually.
+
 ## Version 1.25 (2026-10-23):
 - Removed the fallback to the first popup's edit box to avoid filling an unrelated dialog.
 - Skip autofill for forbidden frames, secure-input dialogs, and secret confirmation data where the client exposes these checks.
